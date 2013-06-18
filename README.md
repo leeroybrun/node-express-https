@@ -2,7 +2,25 @@
 
 Example of using Express &amp; Node.js with HTTPS.
 
-## Generation of SSL keys
+## Usage
+
+Install dependencies :
+
+```shell
+npm install
+```
+
+Then launch the app.js file with node :
+
+```shell
+node app.js
+```
+
+You can then access the server on the address : https://127.0.0.1:8080
+
+## Generate the certificate
+
+The certificate files are stored inside the `ssl/` folder. You can generate new files with the following commands.
 
 Create the private key :
 
@@ -20,3 +38,5 @@ Create the self-signed certificate :
 ```shell
 openssl x509 -req -in csr.pem -signkey key.pem -out cert.pem
 ```
+
+Alternatively you can send the CSR to a Certificate Authority for signing.
