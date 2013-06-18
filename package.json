@@ -1,0 +1,21 @@
+{
+    "name": "node-express-https",
+    "version": "0.1.0",
+    "author": "Leeroy Brun <leeroy.brun@gmail.com>",
+    "description": "Example of using Express & Node.js with HTTPS.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/leeroybrun/node-express-https.git"
+    },
+    "main": "app.js",
+    "scripts": { 
+        "start": "node app.js" 
+    },
+    "dependencies" : {
+        "express": "*"
+    },  
+    "license": "MIT",
+    "engines": {
+        "node": "<=0.8.9"
+    }
+}
