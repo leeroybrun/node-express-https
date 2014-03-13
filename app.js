@@ -2,7 +2,7 @@ var express = require('express'),
     https = require('https'),
     fs = require('fs');
 
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 8443;
 var HOST = process.env.HOST || '';
 
 var app = express();
