@@ -16,7 +16,7 @@ Then launch the app.js file with node :
 node app.js
 ```
 
-You can then access the server on the address : https://127.0.0.1:8080
+You can then access the server on the address : https://127.0.0.1:8443/
 
 ## Generate the certificate
 
